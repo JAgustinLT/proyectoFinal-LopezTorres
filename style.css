@@ -1,0 +1,74 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #222, #444);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Contenedor central */
+.container {
+  background: white;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.3);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Título principal */
+.titulo {
+  font-size: 28px;
+  color: #c0392b; /* rojo fuerte estilo Rocky */
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+/* Inputs y botones */
+input {
+  width: 90%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 15px;
+  margin: 10px 5px;
+  background: #c0392b;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #922b21;
+}
+
+/* Mensajes dinámicos */
+#mensaje {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+#mensaje.success {
+  color: green;
+}
+
+#mensaje.error {
+  color: red;
+}
