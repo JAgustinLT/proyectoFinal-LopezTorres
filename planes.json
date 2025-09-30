@@ -1,0 +1,5 @@
+[
+  { "id": 1, "name": "Plan Mensual", "price": 20000 },
+  { "id": 2, "name": "Plan Trimestral", "price": 50000 },
+  { "id": 3, "name": "Plan Anual", "price": 150000 }
+]

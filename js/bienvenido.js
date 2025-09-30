@@ -5,3 +5,7 @@ if (cliente) {
 } else {
   document.getElementById("mensaje").textContent = "No estás registrado";
 }
+
+
+
+

@@ -14,11 +14,12 @@ document.getElementById("formRegistro").addEventListener("submit", function(e) {
   clientes.push(cliente);
   localStorage.setItem("clientes", JSON.stringify(clientes));
 
-  const mensaje = document.getElementById("mensaje");
-  mensaje.textContent = "✅ Registro exitoso, ahora puedes iniciar sesión.";
-  mensaje.className = "success";
-
-  setTimeout(() => {
+  Swal.fire({
+    icon: "success",
+    title: "Registro exitoso",
+    text: "Ahora puedes iniciar sesión."
+  }).then(() => {
     window.location.href = "login.html";
-  }, 2000);
+  });
 });
+
